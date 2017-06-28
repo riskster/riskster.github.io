@@ -2,7 +2,7 @@
 
 h1 {
 	text-align: center;
-	font-family: 'helvetica';
+	font-family: 'Comfortaa';
 	font-size: 42px;
 	font-weight: normal;
 
@@ -13,9 +13,9 @@ body {
 	background-image: url(../images/space_homepage.jpg);
 	background-size: cover;
 	color: #fff;
-	font-family: 'Comfortaa';
+	font-family: 'helvetica';x
 }
 
 p {
-	font-size: 24px;
+	font-size: 16px;
 }
