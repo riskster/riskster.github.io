@@ -10,7 +10,7 @@ h1 {
 
 body {
 	text-align: center;
-	background-image: url("file:///Users/rikki/Desktop/riskster.github.io/unit_3/images/space_homepage.jpg");
+	background-image: url(../images/space_homepage.jpg);
 	background-size: cover;
 	color: #fff;
 	font-family: 'Comfortaa';
