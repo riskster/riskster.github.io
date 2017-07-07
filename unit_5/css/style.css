@@ -1,11 +1,50 @@
 @import url('https://fonts.googleapis.com/css?family=Comfortaa');
+@import url('https://fonts.googleapis.com/css?family=Adamina');
+@import url('https://fonts.googleapis.com/css?family=Crimson+Text|Roboto');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
 
 h1 {
 	text-align: center;
-	font-family: 'Comfortaa';
+	font-family: 'Roboto';
 	font-size: 42px;
 	font-weight: normal;
 
+}
+
+h2, h3 {
+	font-family: 'Roboto';
+	font-size: 26px;
+}
+
+#wrapper {
+	width: 750px;
+	margin: auto;
+}
+
+#intro {
+	background-color: black;
+	padding: 30px;
+}
+
+#whatNext {
+	background-color: black;
+	padding: 30px;
+
+}
+
+#firstMover {
+	background-color: black;
+	padding: 30px;
+}
+
+#makeAPlan {
+	background-color: black;
+	padding: 30px;
+}
+
+#getFinanceReady {
+background-color: black;
+	padding: 30px;
 }
 
 body {
@@ -13,9 +52,14 @@ body {
 	background-image: url(../images/space_homepage.jpg);
 	background-size: cover;
 	color: #fff;
-	font-family: 'helvetica';x
+	font-family: 'Crimson+Text|Roboto'
+	letter-spacing: 3px;
+	line-height: 35px;
+
+
 }
 
+
 p {
-	font-size: 16px;
+	font-size: 22px;
 }
