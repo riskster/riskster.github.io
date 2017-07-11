@@ -45,7 +45,6 @@ h1 {
 	color:#fff;
 	padding: 15em 0 0;
 	height: 100vh;
-	
 		
 }
 
@@ -54,35 +53,25 @@ h1 {
 	width: 35%;
 	margin-left:15%;
 	padding-left: 0
-	padding-top: 40%;
+	padding-top: 10%;
 	text-align: right;
-	background-color: red;
-	border: 5px solid white;
-		
+	display:inline-block;
 
 }
 
 #subTitle {
 	float: right;
 	width: 35%;
-	margin-left:0%;
-	padding-right: 15%
-	padding-top: 15%;
-	text-align: right;
-	background-color: blue;
-	border: 5px solid white;
+	margin-right:15%;
+	font-size: 26px;
+	font-family: helvetica;
+	font-weight: normal;
+	display:inline-block;
 	
 }
 
 #intro {
 	clear:both;
-	width: 100%;
-	padding-left:30%;
-	padding-right:30%;
-	padding-top: 10%;
-	background-color: green;
-	border: 5px solid white;
-	
 }
 
 
