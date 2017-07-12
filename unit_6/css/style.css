@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Crimson+Text|Roboto');
 @import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans|Open+Sans');
+
+
 * { margin:0; padding:0; box-sizing:border-box; }
 body {
 	color: #333;
@@ -9,8 +12,7 @@ body {
 }
  nav {
    float: right;
-
- }
+}
 
  nav a{
   text-decoration:none;
@@ -20,49 +22,40 @@ body {
 }
 
 section {
-	padding:5em 0 0 2em;
-		
+	padding:2em 0 2em 2em;
 }
+
+
 h2, h3 {
 	font-family: 'Roboto', sans-serif;
-	font-size: 26px;
+	font-size: 34px;
+	padding-bottom: 20px;
 
 }
+
 h1 {
 	font-size: 80px;
 	font-weight: normal;
 	line-height: 80px;
 	padding: 1em;
 	border: 1em;
-	font-family: helvetica, sans-serif;
-
-
+	font-family:'Open Sans', sans-serif;
+	text-align: center;
 }
 
 #title {
-	background-image: url(../images/space_homepage.jpg);
+	background-image: url(../images/marshero.jpg);
 	background-size: cover;
 	color:#fff;
 	padding: 15em 0 0;
 	height: 100vh;
-	
-		
 }
 
-h1 {
-	float: left;
-	background-color: black;
-	width: 40%;
-	margin-left: 10%;
-	text-align: center;
-	border-right: 2px solid white;
-
-}
 
 span {
-	font-family: 'Roboto', sans-serif;
-	font-size:24px;
 	font-weight: bold;
+	font-size: 40px;
+	padding-right:.5em;
 
 }
 
@@ -71,27 +64,25 @@ span {
 	background-color: black;
 	color: white;
 	font-family: 'Roboto', sans-serif;
-	font-size:24px;
 	padding: 100px 20px 20px 20px;
 	width: 35%;
 	margin-right: 15%;
 	background-color: black;
-	
-}
 
-.subTitle {
-	font-weight: normal;
-	font-size: 30px;
-	
 }
 
 button {
-	background-color: white;
-	padding: 20px;
+	background-color: black;
+	color: white;
+	padding: 15px;
 	font-family:'Roboto', sans-serif;
 	font-size: 20px;
-	position: center;
 
+	
+}
+
+#whatNext {
+	padding:3em;
 }
 
 .column {
@@ -102,6 +93,7 @@ button {
 	float: left;
 	display:inline-block;
 	vertical-align: top;
+	border-right: 1px solid black;
 
 }
 
@@ -115,17 +107,30 @@ button {
 
 }
 
-#otherContent {
+span {
+	font-weight: bold;
+	font-size: 40px;
+	padding-right:.5em;
+}
+
+
+#summary {
 	clear:both;
-	background-image: url(../images/earth.jpg);
+	padding: 5em;
+}
+
+
+#otherContent {
+	background: black;
 	background-size: cover;
 	padding: 15em 0 0;
 	height: 400px;
+	padding: 2em;
 
 }
 
 #end {
 	color: white;
 	font-size: 26px
-	
+
 }
