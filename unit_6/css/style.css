@@ -74,7 +74,6 @@ span {
 	margin-top: 1em;
 }
 
-
 #whatNext {
     max-width: 30em;
     margin: auto;
@@ -111,9 +110,7 @@ p.logo {
 
 #steps {
     max-width: 60em;
-    margin: auto;
-    
-  
+    margin: auto;     
 }
 
 
@@ -124,21 +121,27 @@ p.logo {
 
 }
 
-
 #otherContent {
 	background: url(../images/mars1.jpg);
 	background-size: cover;
 	padding: 15em 0 0;
 	height: 600px;
 	padding: 2em;
-
-}
-#socialMedia {
-	  width: auto;
-  	height: 10px;
-  		max-height: 10px;
-
-}
-#end {
+	text-align: center;
 	color: white;
 	font-size: 26px
+}
+
+.FollowUS {
+	background-color: black;
+	color: white;
+	padding: .75em 1.5em;
+	font-family:'Roboto', sans-serif;
+	text-decoration: none;
+	display: inline-block;
+	margin-top: 1em;
+
+}
+
+
+
