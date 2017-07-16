@@ -145,7 +145,7 @@ p.logo {
 
 @media only screen and (max-width: 780px) {
 
-	.columns {
+	.column {
 		float:none;
 		width: auto;
 	} 
@@ -161,10 +161,44 @@ p.logo {
 		display: block;
 		text-align: center;
 		margin:0;
-
+		font-size: 1em;
 	}
 
 @media only screen and (max-width: 480px) {
+	h1, nav {
+		display: block;
+		text-align: center;
+	}
+
+	nav a {
+		margin: 0 1em 1em;
+		font-size: 1.5em;
+		width: 80%;
+		outline-width: .5em;
+		height: 2em;
+		line-height: 2em;
+	}
 	body {
 		font-size: 13px
 	}
+	img {
+		width: 480px;
+	}
+
+	section, div {
+		width: 100%;
+		padding: .6em;
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
