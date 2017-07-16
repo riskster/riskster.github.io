@@ -143,5 +143,10 @@ p.logo {
 
 }
 
+@media only screen and (max-width: 480p) {
+	.columns {
+		float:none;
+		width: auto;
+	} 
 
 
