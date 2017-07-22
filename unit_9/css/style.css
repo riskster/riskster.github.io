@@ -159,6 +159,25 @@ p.logo {
 
 	}
 
+	#title {
+		background-image: url(../images/MarsAstroFinal780.jpg);
+		height:100vh;
+	}
+
+	#otherContent {
+		background: url(../images/mars780.jpg);
+		height:100vh;
+
+	}
+	#whatNext {
+		width: 60em;
+	}
+
+	#summary {
+		width: 60em;
+		padding: 15em 0 0;
+	}
+
 	#column2 {
 		border:none;
 	}
@@ -194,6 +213,25 @@ p.logo {
 	}
 	body {
 		font-size: 14px
+	}
+
+
+	#title {
+		background-image: url(../images/MarsAstroFinal480.jpg);
+		height:100vh;
+	}
+
+	#otherContent {
+		background: url(../images/mars480.jpg);
+		height:100vh;
+
+	}
+	#whatNext {
+		width: 60em;
+	}
+
+	#summary {
+		width: 60em;
 	}
 
 
