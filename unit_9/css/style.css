@@ -157,7 +157,13 @@ p.logo {
 		font-size: 18px;
 	}
 
-	h1, h2 {
+	h1 {
+		font-size: 2em;
+		text-align: center;
+	}
+
+	h2 {
+		font-size: 1.5em;
 		text-align: center;
 	}
 	nav a{
@@ -174,6 +180,7 @@ p.logo {
 	.column {
 		float:none;
 		width: auto;
+		min-height: auto;
 	} 
 
 	#column2 {
@@ -184,6 +191,10 @@ p.logo {
 	float:none;
 	width: 100%;
 	text-align: center;
+}
+
+.followUs {
+	margin-top: 1.5em;
 }
 
 @media only screen and (max-width: 480px) {
@@ -212,12 +223,18 @@ p.logo {
 		padding: .6em;
 	}
 
+#title {
+	background-image: : url(../images/MarsAstroFinaCrop.jpg); 
+}
 .SeeThings {
 	float:none;
 	width: 100%;
 	text-align: center;
+}
 
-
+.followUS {
+	margin-top: 1.5
+}
 
 
 
