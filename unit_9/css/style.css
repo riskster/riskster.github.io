@@ -125,18 +125,18 @@ p.logo {
 	background: url(../images/mars1900.jpg);
 	background-size: cover;
 	padding: 15em 0 0;
+	width: 100%;
 	height:75vh;
 	padding: 2em;
+	text-align: center;
 	color: white;
 	font-size: 1.5em;
-	font-family:'Roboto', sans-serif;
-
 }
 
 
-#SeeThings {
-	float: right;
-	width:50%;
+.SeeThings {
+	float:right;
+	width: 50%;
 }
 
 
@@ -153,57 +153,52 @@ p.logo {
 
 @media only screen and (max-width: 780px) {
 
-	.column {
-		float:none;
-		width: auto;
-
-	}
-
-	#title {
-		background-image: url(../images/MarsAstroFinal780.jpg);
-		height:100vh;
-	}
-
-	#otherContent {
-		background: url(../images/mars780.jpg);
-		height:100vh;
-
-	}
-	#whatNext {
-		width: 60em;
-	}
-
-	#summary {
-		width: 60em;
-	}
-
-	#column2 {
-		border:none;
-	}
-
 	body {
-		font-size: 16px;
+		font-size: 18px;
 	}
 
-	h1, h2 {
+	h1 {
+		text-align: center;
+		font-size: 1.5em;
+	}
+
+	h2 {
 		text-align: center;
 	}
 	nav a{
 		display: block;
 		text-align: center;
-		margin: auto;
+		margin: 0 auto;
 		font-size: 1em;
 	}
 
+	#title {
+	    background-image: url(../images/MarsAstroFinal780.jpg);
+	}
+
+	.column {
+		float:none;
+		width: auto;
+	} 
+
+	#column2 {
+		border: none;
+	}
+
+	.SeeThings {
+	float:none;
+	width: 100%;
+	text-align: center;
+}
+
 @media only screen and (max-width: 480px) {
-	
 	h1, nav {
 		display: block;
 		text-align: center;
 	}
 
 	nav a {
-		margin: auto;
+		margin: 0 auto;
 		font-size: 1.5em;
 		width: 80%;
 		outline-width: .5em;
@@ -211,46 +206,21 @@ p.logo {
 		line-height: 2em;
 	}
 	body {
-		font-size: 14px
+		font-size: 16px
 	}
-
-
-	#title {
-		background-image: url(../images/MarsAstroFinal480.jpg);
-		height:80vh;
+	img {
+		width: 480px;
 	}
-
-	#otherContent {
-		background: url(../images/mars480.jpg);
-		height:100vh;
-
-	}
-	#whatNext {
-		width: 60em;
-	}
-
-	#summary {
-		width: 60em;
-	}
-
-
-	#column2 {
-		border:none;
-	}
-
-	#SeeThings {
-	float: right;
-	width:50%;
-	font-size: 1em
-	}
-
 
 	section, div {
 		width: 100%;
 		padding: .6em;
 	}
 
-
+.SeeThings {
+	float:none;
+	width: 100%;
+	text-align: center;
 
 
 
