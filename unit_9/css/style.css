@@ -175,9 +175,10 @@ p.logo {
 
 	#summary {
 		width: 60em;
+		padding: 15em 0 0;
 	}
 
-	.column2 {
+	#column2 {
 		border:none;
 	}
 
@@ -232,8 +233,14 @@ p.logo {
 		width: 60em;
 	}
 
-	.column2 {
+	#column2 {
 		border:none;
+	}
+
+	#SeeThings {
+	float: right;
+	width:50%;
+	font-size: 1em
 	}
 
 
