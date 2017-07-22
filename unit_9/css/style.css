@@ -137,6 +137,7 @@ p.logo {
 .SeeThings {
 	float:right;
 	width: 50%;
+
 }
 
 
@@ -191,10 +192,20 @@ p.logo {
 	float:none;
 	width: 100%;
 	text-align: center;
+	font-size: 1.2em;
 }
 
 .followUs {
 	margin-top: 1.5em;
+}
+.SeeThings {
+	float:none;
+	width: 100%;
+	text-align: center;
+}
+
+.followUS {
+	margin-top: 1.5
 }
 
 @media only screen and (max-width: 480px) {
@@ -230,6 +241,7 @@ p.logo {
 	float:none;
 	width: 100%;
 	text-align: center;
+	font-size: 1.2em;
 }
 
 .followUS {
