@@ -189,7 +189,10 @@ p.logo {
 
 #title {
 	    background-image: url(../images/MarsAstroFinal780.jpg);
+
+
 	}
+
 
 .column {
 		float:none;
@@ -253,6 +256,7 @@ p.logo {
 #title {
 	background-image: : url(../images/MarsAstroFinaCrop.jpg); 
 	height: 55vh;
+
 }
 .SeeThings {
 	float:none;
