@@ -15,8 +15,6 @@ body {
  #header {
    float: right;
    padding:1em;
-
-
 }
 
  nav a{
@@ -25,6 +23,7 @@ body {
   padding: 1em;
   display:inline-block;
   margin:0%;
+  float: right;
 
 }
 
@@ -96,9 +95,6 @@ p.logo {
 }
 
 
-
-
-
 #column3 {
     border: none;
 }
@@ -154,15 +150,10 @@ p.logo {
 
 }
 
-@media only screen and (max-width: 780px) {
+@media only screen and (max-width: 1000px) {
 
 	body {
-		font-size: 18px;
-	}
-
-		h1, nav {
-		display: block;
-		text-align: center;
+		font-size: 24px;
 	}
 
 
@@ -175,16 +166,14 @@ p.logo {
 		font-size: 1.5em;
 		text-align: center;
 	}
-	nav a{
-		display: block;
-		margin: 0 auto;
-		font-size: 1.5em;
-		line-height: 1em;
+
+	
+
+	section, div {
+		width: 100%;
+		padding: .6em;
 	}
 
-#header {
-		float: center;
-	}
 
 
 #title {
@@ -195,6 +184,7 @@ p.logo {
 		float:none;
 		width: auto;
 		min-height: auto;
+		max-width: 30em;
 	} 
 
 #column2 {
@@ -219,27 +209,19 @@ p.logo {
 }
 
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 760px) {
+	
 	h1, nav {
 		display: block;
 		text-align: center;
+
 	}
 
-	nav a {
-		margin: 0 auto;
-		font-size: 1.5em;
-		width: 80%;
-		outline-width: .5em;
-		height: 2em;
-		line-height: 2em;
-	}
 
 	body {
-		font-size: 16px
+		font-size: 20px
 	}
-	img {
-		width: 480px;
-	}
+
 
 	section, div {
 		width: 100%;
@@ -251,7 +233,12 @@ p.logo {
 	}
 
 #title {
-	background-image: : url(../images/MarsAstroFinaCrop.jpg); 
+	background-image: url(../images/MarsAstroFinalCrop1.jpg); 
+}
+
+img {
+	width:100%;
+}
 	
 }
 .SeeThings {
@@ -270,6 +257,21 @@ p.logo {
 }
 
 
+
+@media only screen and (max-width: 476px) {
+
+#title {
+	background-image: url(../images/MarsAstroFinal2.jpg); 
+}
+
+nav a {
+	margin: 0 auto;
+	font-size: 1.5em;
+	width: 80%;
+	outline-width: .5em;
+	height: 2em;
+	line-height: 2em;
+	}
 
 
 
