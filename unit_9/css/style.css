@@ -12,7 +12,7 @@ body {
 }
 
 
- #header {
+ header {
    float: right;
    padding:1em;
 }
@@ -56,7 +56,7 @@ h1 {
 }
 
 
-span {
+.subtitle {
 	font-weight: bold;
 	font-size: 1.2em;
 	padding-right:.5em;
@@ -228,9 +228,7 @@ p.logo {
 		padding: .6em;
 	}
 
-#header {
-		float: center;
-	}
+	
 
 #title {
 	background-image: url(../images/MarsAstroFinalCrop1.jpg); 
@@ -261,17 +259,23 @@ img {
 @media only screen and (max-width: 476px) {
 
 #title {
-	background-image: url(../images/MarsAstroFinal2.jpg); 
+	background: url(../images/MarsAstroFinal1000.jpg); 
 }
 
-nav a {
-	margin: 0 auto;
-	font-size: 1.5em;
-	width: 80%;
-	outline-width: .5em;
-	height: 2em;
-	line-height: 2em;
+	h1, nav {
+		display: block;
+		text-align: center;
 	}
+
+	nav a {
+		margin: 0 1em 1em;
+		font-size: 1em;
+		width: 80%;
+		outline-width: .5em;
+		height: 2em;
+		line-height: 2em;
+	}
+
 
 
 
